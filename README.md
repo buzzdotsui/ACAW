@@ -14,4 +14,14 @@ Think of it as a **self-governing simulation** where code, AI agents, and player
 This project is built to:
 - Showcase the power of **Sui’s object-centric model**.  
 - Demonstrate composability across modules (economy, politics, resources, AI).  
-- Inspire developers, creators, and gamers to imagine new forms of **autonomous worlds**.  
+- Inspire developers, creators, and gamers to imagine new forms of **autonomous worlds**.
+  
+📂 Project Structure
+ACAW/
+├── Move.toml # Project configuration
+├── sources/ # Core Sui Move modules
+│ ├── World.move # Base world logic
+│ ├── Agents.move # Autonomous agents
+│ ├── Economy.move # Currency & resources
+│ └── Events.move # Time-based evolution
+└── README.md
